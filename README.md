@@ -1,6 +1,9 @@
 # AiLab
 
 AiLab is my personal **AI engineering lab** for building startup-style AI products and experiments.
+Live Demo: [AiLab on Vercel](https://your-vercel-url.vercel.app)
+
+AiLab is my personal AI engineering lab for building startup-style AI products and experiments.
 
 The goal of this repository is to explore modern AI product development using the tools and architecture commonly used by AI startups.
 
