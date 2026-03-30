@@ -1,1 +1,65 @@
 @import "tailwindcss";
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+/* .forest-flow {
+  position: absolute;
+  inset: -20%;
+  background:
+    radial-gradient(circle at 85% 20%, rgba(54, 92, 71, 0.34) 0%, transparent 28%),
+    radial-gradient(circle at 70% 55%, rgba(103, 132, 126, 0.28) 0%, transparent 30%),
+    radial-gradient(circle at 92% 78%, rgba(128, 153, 158, 0.24) 0%, transparent 26%),
+    radial-gradient(circle at 60% 35%, rgba(196, 122, 74, 0.18) 0%, transparent 24%),
+    radial-gradient(circle at 100% 50%, rgba(175, 203, 191, 0.2) 0%, transparent 28%);
+  background-repeat: no-repeat;
+  background-size:
+    42% 42%,
+    46% 46%,
+    38% 38%,
+    34% 34%,
+    44% 44%;
+  filter: blur(95px);
+  opacity: 0.9;
+  mix-blend-mode: multiply;
+  will-change: background-position, transform;
+  animation: forestFlowHorizontal 24s linear infinite;
+} */
+
+@keyframes forestFlowHorizontal {
+  0% {
+    background-position:
+      110% 12%,
+      95% 55%,
+      120% 82%,
+      88% 34%,
+      130% 52%;
+    transform: scale(1.02);
+  }
+
+  50% {
+    background-position:
+      55% 16%,
+      48% 52%,
+      62% 76%,
+      40% 38%,
+      70% 48%;
+    transform: scale(1.05);
+  }
+
+  100% {
+    background-position:
+      -10% 14%,
+      -18% 58%,
+      -8% 80%,
+      -24% 36%,
+      -15% 50%;
+    transform: scale(1.02);
+  }
+}
