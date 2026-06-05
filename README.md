@@ -1,4 +1,6 @@
 <img width="1920" height="958" alt="Screenshot 2026-06-05 at 11 39 29 AM" src="https://github.com/user-attachments/assets/4439b328-f938-4cbd-941a-42ad3f85cc85" />
+
+
 # AiLab
 
 AiLab is a modern AI experimentation platform built with Next.js 16 focused on interactive AI tools, creative workflows, and developer productivity.
